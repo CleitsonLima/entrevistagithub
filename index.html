@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Curso de Git-GitHub</title>
+    <title>Escola Front-End Curso Git e GitHub</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
     <script src='main.js'></script>
@@ -11,77 +11,107 @@
 <body>
     
     <header>
-        Curso de Git-GitHub
+        <div id="logo">
+            <img src="logos/GitHub_Logo_White.png" width="120px">
+
+        </div>
+        <nav>
+            <li><img src=""></li>
+        </nav>
     </header>
     
     <main>
-        Tabela de comandos Git
-        <table border="1">
-            <tr>
-                <th>Descrição</th>
-                <th>Comando</th>
-            </tr>
-            <tr>
-                <th>Ver a versão </th>
-                <th>git --version </th>
-            </tr>
-            <tr>
-                <th>Criar pastar</th>
-                <th>mkdir nome da pasta</th>
-            </tr>
-            <tr>
-                <th>Inicializar o repositorio</th>
-                <th>git init</th>
-            </tr>
-            <tr>
-                <th>Visualizar informações</th>
-                <th>git status</th>
-            </tr>
-            <tr>
-                <th>Listar recursos da pasta</th>
-                <th>ls</th>
-            </tr>
-            <tr>
-                <th>Navegar nas pastas</th>
-                <th>cd ou cd ..</th>
-            </tr>
-            <tr>
-                <th>abrir nano</th>
-                <th>nano nome do arquivo</th>
-            </tr>
-            <tr>
-                <th>Fechar o nano</th>
-                <th>Ctrl+X</th>
-            </tr>
-            <tr>
-                <th>Quem e você?</th>
-                <th> git config --local user.name "seu nome" e user.email "seu email"</th>
-            </tr>
-            <tr>
-                <th>Listar os commits</th>
-                <th>git log ou git log --online ou git log -p obs:use Q para sair</th>
-            </tr>
-            <tr>
-                <th>Ignorar o arquivo</th>
-                <th>.gitignore obs: Criar o arquivo .gitignore e depois adicionar o arquivo e "commitar"</th>
-            </tr>
-            <tr>
-                <th>Listar repositorio remoto</th>
-                <th>git remote</th>
-            </tr>
-            <tr>
-                <th>Adicionar repositorio</th>
-                <th>git remoto add origin url do repositorio</th>
-            </tr>
-            <tr>
-                <th>Enviar para o repositorio com -u</th>
-                <th>git push -u origin master depois use git push</th>
-            </tr>
-            <tr>
-                <th>Desfazer um commit</th>
-                <th>git revert hash do commit</th>
-            </tr>
-        </table>
+        <section id="menu-lateral">
+            <nav>
+                <ul>
+                    <li><a href="#"><img src="logos/mural.png">Mural</a></li>
+                    <li><a href="#"><img src="logos/ambientacao.png">Ambientação</a></li>
+                    <li><a href="#"><img src="logos/aulas.png">Aulas</a></li>
+                    <li><a href="#"><img src="logos/podcast.png">PodCast</a></li>
+                    <li><a href="#"><img src="logos/test.png">Teste</a></li>
+                    <li><a href="#"><img src="logos/lab.png">Laboratorio</a></li>
+                    <li><a href="#"><img src="logos/mapa-mental.png">Mapa Mental</a></li>
+                    <li><a href="#"><img src="logos/classroom.png">Google Sala</a></li>
+                    <li><a href="#"><img src="logos/link.png">Links Utéis</a></li>
+                    <li><a href="#"><img src="logos/docs.png">Docs</a></li>
+                    <li><a href="#"><img src="logos/youtube.png">Youtube</a></li>
+                    <li><a href="#"><img src="logos/linkedin.png">Linkedin</a></li>
+                    <li><a href="#"><img src="#">Instagram</a></li>
+                    <li><a href="#"><img src="logos/whatsapp.png">WhatsApp</a></li>
+                    <li><a href="#"><img src="logos/branch.png">Branches</a></li>
+                    <li><a href="#"><img src="logos/dontpad.png">DontPad</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section id="tabela">
+            Tabela de Comandos Git
+            <table  border="1">
+                <tr>
+                    <th>Descrição</th>
+                    <th>Comando</th>
+                </tr>
+                <tr>
+                    <th>Ver a versão </th>
+                    <th>git --version </th>
+                </tr>
+                <tr>
+                    <th>Criar pastar</th>
+                    <th>mkdir nome da pasta</th>
+                </tr>
+                <tr>
+                    <th>Inicializar o repositorio</th>
+                    <th>git init</th>
+                </tr>
+                <tr>
+                    <th>Visualizar informações</th>
+                    <th>git status</th>
+                </tr>
+                <tr>
+                    <th>Listar recursos da pasta</th>
+                    <th>ls</th>
+                </tr>
+                <tr>
+                    <th>Navegar nas pastas</th>
+                    <th>cd ou cd ..</th>
+                </tr>
+                <tr>
+                    <th>abrir nano</th>
+                    <th>nano nome do arquivo</th>
+                </tr>
+                <tr>
+                    <th>Fechar o nano</th>
+                    <th>Ctrl+X</th>
+                </tr>
+                <tr>
+                    <th>Quem e você?</th>
+                    <th> git config --local user.name "seu nome" e user.email "seu email"</th>
+                </tr>
+                <tr>
+                    <th>Listar os commits</th>
+                    <th>git log ou git log --online ou git log -p obs:use Q para sair</th>
+                </tr>
+                <tr>
+                    <th>Ignorar o arquivo</th>
+                    <th>.gitignore obs: Criar o arquivo .gitignore e depois adicionar o arquivo e "commitar"</th>
+                </tr>
+                <tr>
+                    <th>Listar repositorio remoto</th>
+                    <th>git remote</th>
+                </tr>
+                <tr>
+                    <th>Adicionar repositorio</th>
+                    <th>git remoto add origin url do repositorio</th>
+                </tr>
+                <tr>
+                    <th>Enviar para o repositorio com -u</th>
+                    <th>git push -u origin master depois use git push</th>
+                </tr>
+                <tr>
+                    <th>Desfazer um commit</th>
+                    <th>git revert hash do commit</th>
+                </tr>    
+            </table> 
+        </section>
     </main>
 
     <footer>

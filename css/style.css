@@ -14,7 +14,6 @@ header{
     height: 100px;
     background-color:black ;
 }
-
 header #logo{
     text-align: center;
     padding-top: 20px;
@@ -34,12 +33,10 @@ header #logo{
     line-height: 2;
     
 }
-
 #menu-lateral img{
     width: 25px;
     height: 25px;
 }
-
 #menu-lateral ul li{
     margin: 0px;
     padding: 0px;
@@ -47,7 +44,13 @@ header #logo{
     list-style-type: none;
     
 }
+#menu-lateral nav ul li{
+    padding-top: 11px;
+    font-size: 14px;
+}
 
 footer{
+    margin: 0;
+    padding: 0;
 
 }

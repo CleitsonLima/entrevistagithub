@@ -86,3 +86,20 @@ nav ul li a{
     
    
 }
+
+.postit-laranja{
+    border: 2px solid orange;
+    
+}
+#draggable { 
+    width: 75px;
+    height: 75px;
+    color: #000000;
+    border: 2px solid black;
+}
+
+.texto{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
